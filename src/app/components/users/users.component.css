@@ -12,13 +12,13 @@ img{
 
 h4.style2{
     margin-top: 50px;
-    font-family: 'Great Vibes', cursive; 
+    font-family: 'Great Vibes', cursive;
     text-align: center;
     font-size: 36px;
     color: #000;
 }
 h4{
-    font-family: 'Great Vibes', cursive; 
+    font-family: 'Great Vibes', cursive;
     text-align: center;
     font-size: 36px;
     color:#000;
@@ -50,7 +50,7 @@ div.cards{
 }
 
 div.cards.repocard{
-    border: 1px solid #d8d4d4;
+    border: 1px solid aqua;
     border-radius: 5px;
     padding-bottom: 5px;
     margin-bottom: 15px;
@@ -62,11 +62,11 @@ div.cards.repocard{
         height: 180px;
     }
 
-} 
+}
 
 @media only screen and (max-width: 610px)and (min-width:348px) {
     div.card-header{
         height: 110px;
     }
 
-} 
+}
