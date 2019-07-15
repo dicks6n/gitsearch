@@ -1,0 +1,26 @@
+.head1{
+    font-family: 'Poppins', sans-serif; 
+    color: black;
+    font-size: 50px;
+    padding-left: 300px;
+}
+.panel-title{
+    font-family: 'Poppins', sans-serif; 
+}
+.page{
+    padding: 5%;
+    border-radius: 5px;
+}
+.para1{
+    font-weight: bold;
+    font-size: 24px;
+}
+.image1{
+    padding-left: 29%;
+}
+.page1{
+    background-color: #E5E8E8;
+}
+.list1{
+    padding-left: 10%;
+}
