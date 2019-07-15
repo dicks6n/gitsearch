@@ -14,7 +14,7 @@ export class SearchService {
   users: Users;
   newRepo: any;
   searchRepo: any;
-  
+
   constructor(private http: HttpClient) {
     this.repository = new Repos('', '', '', new Date());
     this.users = new Users('', '', '', 0, '', new Date(), 0, 0);
@@ -70,8 +70,9 @@ export class SearchService {
     interface ApiResponse {
       items: any;
     }
-    
+
     const promise = new Promise((resolve, reject) => {
+      // tslint:disable-next-line: max-line-length
       this.http.get<ApiResponse>('https://api.github.com/search/repositories?q=' + searchName + ' &per_page=10 ' + environment.accessToken).toPromise().then(getRepoResponse => {
         this.searchRepo = getRepoResponse.items;
         resolve();
